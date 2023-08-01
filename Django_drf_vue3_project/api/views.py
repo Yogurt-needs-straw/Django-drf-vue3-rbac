@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from rest_framework.permissions import BasePermission
-from rest_framework.viewsets import ModelViewSet
 from rest_framework import serializers, exceptions
 from rest_framework.authentication import BaseAuthentication
+
+from utils.viewsets import ModelViewSet
 
 from api import models
 
